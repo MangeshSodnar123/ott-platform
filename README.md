@@ -55,6 +55,9 @@ Ensure you have the following installed on your machine:
 2. Install the dependencies:
     >>>npm install
 
+3. Seed the database
+    >>>npm dbseed
+
 
 ### Configuration
 
