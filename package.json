@@ -1,0 +1,30 @@
+{
+  "name": "ott-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "dbseed": "node MyListFeature/data/seedDatabase.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "redis": "^4.6.14"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
